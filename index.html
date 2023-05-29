@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+    </body>
+    </html></title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+  <style>
+    body {
+      background-image: url('https://images.pexels.com/photos/4047077/pexels-photo-4047077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+      background-repeat: no-repeat;
+    }
+    </style>
+    <script src="script.js"></script>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#FAQs">FAQs</a>
+        <input type="text" placeholder="Search..">
+      </div>
+    <h1>EMEGENCY CARE</h1>
+    <div class="p1"><p>This website has been created for your safety, here you can get enough information about all the hospitals, blood banks, beds / ventilators in your city, we hope that this website will help you.</p></div>
+    <div class="img1"><img1 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR27vu83Xin165ozXIzU05FUx-HpO6rOBX4FGlpEG4&s" alt=""></div>
+    <h3>Login Form</h3>
+   <form action="/action_page.php" method="post"">
+     <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+      <div class="container" style="background-color:#f1f1f1a4">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+    <div class="tab">
+      <button class="tablinks" onmouseover="openCity(event, 'Hospitals')">Hospitals</button>
+      <div id="Hospitals" class="tabcontent">
+        <h3>Hospitals</h3>
+        <p>Avilable hospitals</p>
+      </div>
+      <button class="tablinks" onmouseover="openCity(event, 'Locations')">Locations</button>
+      <div id="Locations" class="tabcontent">
+        <h3>Locations</h3>
+        <p>Its show number of patients</p>
+        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28578.07013434479!2d80.31776388505934!3d26.44738660194303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c4770b127c46f%3A0x1778302a9fbe7b41!2sKanpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1685285871889!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></div>
+      <button class="tablinks" onmouseover="openCity(event, 'BloodBanks')">Bloodbanks</button>
+      <div id="Doctors" class="tabcontent">
+        <h3>Doctors</h3>
+        <p>Here you can find avilables doctors to nearest hosptals</p>
+        <ol>
+          <li>Surgeon</li>
+          <li>Neurologist</li>
+          <li>Radilogist</li>
+          <li>psychiatrist</li>
+          <li>Physician</li>
+          <li>Anesthesiologist</li>
+          <li>General practitioner</li>
+          <li>Pharmacist</li>
+          <li>Oncologis</li>
+        </ol></div>    
+      <button class="tablinks" onmouseover="openCity(event,'Doctors')">Doctors</button>
+    </div>
+    <div id="BloodBanks" class="tabcontent">
+      <h3>Near Blood Banks</h3>
+      <p>In this section you can find nearest bloodbanks</p>
+    </div>
+</body>
+</html>
