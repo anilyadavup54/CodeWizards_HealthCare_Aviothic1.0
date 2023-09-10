@@ -39,7 +39,7 @@ body {font-family: "Lato", sans-serif;
   height: 300px;
 }
 .tab button {
-  display: block;
+  display: inline;
   background-color: inherit;
   color: black;
   padding: 22px 16px;
@@ -109,7 +109,7 @@ span.psw {
   
   .topnav a {
     float: left;
-    display: block;
+    display: inline;
     color: black;
     text-align: right;
     padding: 14px 16px;
@@ -142,7 +142,7 @@ span.psw {
   @media screen and (max-width: 600px) {
     .topnav a, .topnav input[type=text] {
       float: none;
-      display: block;
+      display: inline;
       text-align: left;
       width: 100%;
       margin: 0;
